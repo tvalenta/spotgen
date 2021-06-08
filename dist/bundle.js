@@ -481,7 +481,7 @@ var base64 = require('base-64')
 var defaults = require('./defaults')
 var http = require('./http')
 var express = require('express')
-var opn = require('opn')
+var opn = require('open')
 var URI = require('urijs')
 
 /**
