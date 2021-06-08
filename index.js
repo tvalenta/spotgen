@@ -3,8 +3,9 @@
 
 var eol = require('eol')
 var fs = require('fs')
-var jsdom = require('jsdom').jsdom
-document = jsdom()
+var jsdom = require('jsdom')
+const { JSDOM } = jsdom
+document = new JSDOM
 window = document.defaultView
 var clipboardy = require('clipboardy')
 var git = require('git-rev')
